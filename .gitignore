@@ -29,8 +29,8 @@ yarn-error.log*
 *.temp
 .cache/
 
-# Package manager files
-package-lock.json
+# Package manager files (keep package-lock.json for CI/CD reproducibility)
+# package-lock.json is now committed for GitHub Actions
 yarn.lock
 pnpm-lock.yaml
 
