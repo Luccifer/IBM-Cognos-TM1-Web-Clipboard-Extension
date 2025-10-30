@@ -56,10 +56,4 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   return true; // Keep message channel open for async response
 });
 
-// Extension icon click handler (optional - for future features)
-chrome.action.onClicked.addListener((tab) => {
-  console.log('[TM1 Clipboard] Extension icon clicked on tab:', tab.id);
-  // Future: Could open options page or show status
-});
-
 console.log('[TM1 Clipboard] Background service worker loaded');
