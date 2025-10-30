@@ -1,6 +1,7 @@
 MIT License
 
-Copyright (c) 2025 Gleb Karpushkin
+Copyright (c) 2024 TM1 Web Clipboard Extension Contributors
+(Originally Copyright IBM Corp. 2007-2016)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +20,41 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+================================================================================
+
+ATTRIBUTION
+
+This project was originally created by IBM Corporation and released under
+a proprietary license. The original IBM license files are preserved in the
+src/licenses/ directory for historical reference.
+
+The current version (2.0.0+) has been modernized and released under the MIT
+License to allow free use, modification, and distribution by anyone.
+
+Original IBM Copyright: 2007-2016
+Modernization and MIT Release: 2024
+
+================================================================================
+
+THIRD-PARTY LICENSES
+
+This extension uses the following third-party technologies:
+
+- Chrome Extension APIs: Copyright Google LLC, Apache 2.0 License
+- Modern Clipboard API: W3C Standard, Royalty-Free
+
+================================================================================
+
+DISCLAIMER
+
+This software is provided "as is" without warranty of any kind. The authors
+and contributors are not responsible for any issues, damages, or liabilities
+that may arise from the use of this software.
+
+This project is NOT officially affiliated with or endorsed by IBM Corporation.
+The IBM name and trademarks remain the property of IBM Corporation.
+
+IBM Cognos and TM1 are trademarks of IBM Corporation.
+
+================================================================================

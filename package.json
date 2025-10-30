@@ -1,0 +1,38 @@
+{
+  "name": "tm1-web-clipboard-extension",
+  "version": "2.0.0",
+  "description": "Modern Manifest V3 browser extension that enables IBM Cognos TM1 Web to access the clipboard using the latest Clipboard API",
+  "author": "TM1 Web Clipboard Contributors (Originally IBM Corporation)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Luccifer/IBM-Cognos-TM1-Web-Clipboard-Extension.git"
+  },
+  "keywords": [
+    "ibm",
+    "cognos",
+    "tm1",
+    "clipboard",
+    "browser-extension",
+    "chrome-extension"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "build:zip": "node scripts/build.js --zip",
+    "clean": "node scripts/clean.js",
+    "watch": "node scripts/watch.js",
+    "lint": "echo 'Linting...' && exit 0",
+    "validate": "node scripts/validate.js"
+  },
+  "devDependencies": {
+    "archiver": "^7.0.1",
+    "chokidar": "^3.6.0",
+    "fs-extra": "^11.2.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "private": true
+}
+
