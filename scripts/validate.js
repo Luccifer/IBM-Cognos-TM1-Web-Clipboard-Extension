@@ -49,9 +49,8 @@ async function validate() {
       console.log('✓ manifest.json is valid');
     }
 
-    // Check required files
+    // Check required files (Manifest V3 - no background.html needed)
     const requiredFiles = [
-      'background.html',
       'background.js',
       'contentscript.js'
     ];

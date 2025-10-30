@@ -244,3 +244,4 @@ Before using:
 Your IBM Cognos TM1 Web Clipboard Extension is now installed and ready to enhance your TM1 Web experience.
 
 
+
